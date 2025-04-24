@@ -37,7 +37,7 @@ struct ButtonsView: View {
             })
             
             Button(action: {
-                self.title = "You pressed me again again!"
+                self.title = "You pressed me again and again!"
             }, label: {
                 Circle()
                     .fill(.white)
