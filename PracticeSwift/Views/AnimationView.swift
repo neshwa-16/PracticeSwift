@@ -36,9 +36,9 @@ struct AnimationView: View {
                     height: isAnimated ? 100 : 300)
                 .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
                 .offset(y: isAnimated ? 100 : 0)
-                .animation(Animation
-                    .easeIn
-                    .repeatForever(autoreverses: true), value: isAnimated)
+                //.animation(Animation
+                    //.easeIn
+                    //.repeatForever(autoreverses: true), value: isAnimated)
             
             Spacer()
         }
