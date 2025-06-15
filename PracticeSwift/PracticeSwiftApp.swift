@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticeSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            TextfieldView()
+            PickerView()
         }
     }
 }
