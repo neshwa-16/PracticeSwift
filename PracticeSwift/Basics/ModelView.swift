@@ -15,7 +15,7 @@ struct UserModel : Identifiable {
     let isVerified : Bool
 }
 
-struct StructView: View {
+struct ModelView: View {
     
     @State var users : [UserModel] = [
         UserModel(displayName: "Nick", userName: "nick123", followerCount: 100, isVerified: true),
@@ -62,5 +62,5 @@ struct StructView: View {
 }
 
 #Preview {
-    StructView()
+    ModelView()
 }
